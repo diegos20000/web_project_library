@@ -313,6 +313,7 @@
 
 .membership__steps {
   list-style-type: none;
+  column-gap: 40px;
   padding: 0;
   margin: 100px 0 0;
   display: flex;
@@ -322,7 +323,6 @@
 }
 
 .step {
-  margin: 40px;
   flex-basis: 220px;
   /* Agrega estilos */
 }
@@ -395,8 +395,8 @@
 }
 
 .footer__social-icon {
-  max-width: 16px;
-  max-height: 16px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
